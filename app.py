@@ -36,4 +36,4 @@ c = st.selectbox('집 유무 입력(없다: 0, 있다: 1)', [0, 1])
 if st.button('신용등급판정'):
  input_data = [[a, b, c]]
  p=model.predict(input_data)
- st.write('인공지능한 당신의 신용 등급은', p)
+ st.write('인공지능한 당신의 신용 등급은(0~1: low, 1~2: average, 2~: high)', p)
