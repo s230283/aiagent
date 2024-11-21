@@ -15,6 +15,9 @@ st.write('- 훈련 데이터: 114')
 st.write('- 테스트 데이터: 50')
 st.write('- 인공지능 모델 정확도: 0.71')
 st.write('- 입력된 데이터는 기계 학습을 위해 사용된 후 바로 삭제됩니다.')
+st.write(' ')
+st.write(' ')
+st.write(' ')
 
 # 3. 데이터시각화
 col1, col2 = st.columns(2)
@@ -24,6 +27,8 @@ with col1:
 with col2:
  st.subheader('데이터 시각화2')
  st.image('시각화2.png')
+st.write(' ')
+st.write(' ')
 
 
 # 4. 모델 활용
