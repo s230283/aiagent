@@ -14,10 +14,7 @@ st.write('- 학습 데이터 출처: https://www.kaggle.com/datasets/sujithmanda
 st.write('- 훈련 데이터: 114')
 st.write('- 테스트 데이터: 50')
 st.write('- 인공지능 모델 정확도: 0.71')
-st.subheader('입력된 데이터는 학습을 위해 사용된 후 바로 삭제됩니다.')
-st.write(' ')
-st.write(' ')
-st.write(' ')
+st.write('- 입력된 데이터는 기계 학습을 위해 사용된 후 바로 삭제됩니다.')
 
 # 3. 데이터시각화
 col1, col2 = st.columns(2)
@@ -33,7 +30,7 @@ with col2:
 st.subheader('모델활용')
 st.write('**** 다음을 입력하세요. 인공지능이 당신의 신용 등급을 알려드립니다!')
 
-a = st.number_input('소득 입력(달러)', value = 0.0)
+a = st.number_input('연소득 입력(달러)', value = 0.0)
 b = st.number_input('아이 수 입력', value = 0)
 c = st.selectbox('집 유무 입력(없다: 0, 있다: 1)', [0, 1])
 
